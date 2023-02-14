@@ -113,8 +113,10 @@ function App() {
   
   return (
     <React.Fragment>
-      <a href="https://webfabrik.substack.com/p/javascript-calculator" target="_blank"><i className="fa-solid fa-info"></i></a>
-      <a target="_blank" href="https://github.com/TillJonas27/" ><i className="fa-brands fa-github"></i></a>
+      <div className="bg-slate-900 text-white pt-4 pl-4">
+      <a href="https://webfabrik.substack.com/p/javascript-calculator" target="_blank"><i className="fa-solid fa-info text-[2rem] mr-2"></i></a>
+      <a target="_blank" href="https://github.com/TillJonas27/" ><i className="fa-brands fa-github text-xl text-[2rem]"></i></a>
+      </div>
     <main className="bg-slate-900 grid place-items-center w-screen h-screen font-mono">
       <div className="w-96 h-5/6 grid grid-cols-4 grid-rows-6 rounded-md p-2 bg-slate-800 drop-shadow-2xl">
         <div id="display" className="p-2 bg-slate-700 rounded-t-md col-span-4 drop-shadow-2xl">
