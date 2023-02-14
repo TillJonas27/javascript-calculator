@@ -113,6 +113,8 @@ function App() {
   
   return (
     <main className="bg-slate-900 grid place-items-center w-screen h-screen font-mono">
+      <a href="https://webfabrik.substack.com/p/javascript-calculator" target="_blank"><i className="fa-solid fa-info"></i></a>
+      <a target="_blank" href="https://github.com/TillJonas27/" ><i className="fa-brands fa-github"></i></a>
       <div className="w-96 h-5/6 grid grid-cols-4 grid-rows-6 rounded-md p-2 bg-slate-800 drop-shadow-2xl">
         <div id="display" className="p-2 bg-slate-700 rounded-t-md col-span-4 drop-shadow-2xl">
           <p className="text-2xl text-cyan-300 text-right">{operation}</p>
